@@ -21,6 +21,7 @@
 	},
 	"homepage": "https://github.com/panieldark/reddit-clone#readme",
 	"devDependencies": {
+		"@types/express": "^4.17.12",
 		"@types/node": "^15.12.2",
 		"nodemon": "^2.0.7",
 		"ts-node": "^10.0.0",
@@ -31,8 +32,12 @@
 		"@mikro-orm/core": "^4.5.6",
 		"@mikro-orm/migrations": "^4.5.6",
 		"@mikro-orm/postgresql": "^4.5.6",
+		"apollo-server-express": "^2.25.1",
 		"dotenv": "^10.0.0",
-		"pg": "^8.6.0"
+		"express": "^4.17.1",
+		"graphql": "^15.5.0",
+		"pg": "^8.6.0",
+		"type-graphql": "^1.1.1"
 	},
 	"mikro-orm": {
 		"useTsNode": true,
