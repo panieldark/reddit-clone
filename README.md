@@ -2,4 +2,6 @@
 
 **Stir**ring the pot with this one.
 
-React, Node, GraphQL, TypeScript, Postgres.
+Stack: React, Node, GraphQL, TypeScript, Postgres.
+
+Probably: Docker, Next.js, Apollo, Redis, TypeGraphQL? 
