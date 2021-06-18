@@ -1,0 +1,26 @@
+{
+  "name": "reddit-clone",
+  "version": "1.0.0",
+  "description": "stirring the pot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panieldark/reddit-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panieldark/reddit-clone/issues"
+  },
+  "homepage": "https://github.com/panieldark/reddit-clone#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
