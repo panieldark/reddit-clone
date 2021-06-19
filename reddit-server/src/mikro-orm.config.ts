@@ -5,8 +5,6 @@ import path from "path";
 import { User } from "./entities/User";
 
 require("dotenv").config();
-const pw = process.env.pg_pw;
-
 export default {
 	migrations: {
 		path: path.join(__dirname, "./migrations"),
@@ -16,6 +14,6 @@ export default {
 	dbName: "lireddit",
 	type: "postgresql",
 	user: "postgres",
-	password: pw,
+	password: process.env.pg_pw,
 	debug: !__prod__,
 } as Parameters<typeof MikroORM.init>[0];
